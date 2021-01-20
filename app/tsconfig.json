@@ -1,32 +1,21 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
-    "outDir": "./dist",
-    "sourceMap": true,
-    "declaration": true,
-    "downlevelIteration": true,
-    "experimentalDecorators": true,
-    "module": "esnext",
-    "moduleResolution": "node",
     "importHelpers": true,
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "es2020",
     "target": "es2015",
     "typeRoots": [
       "node_modules/@types"
     ],
     "lib": [
-      "es2018",
+      "esnext",
       "dom"
-    ],
-    "paths": {
-      "@coreui/angular": [
-        "dist/@coreui/angular"
-      ]
-    }
-  },
-  "angularCompilerOptions": {
-    "enableIvy": false,
-    "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true
+    ]
   }
 }

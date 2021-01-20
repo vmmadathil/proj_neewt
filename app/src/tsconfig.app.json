@@ -3,7 +3,7 @@
   "compilerOptions": {
     "outDir": "../out-tsc/app",
     "baseUrl": "./",
-    "module": "esnext",
+    "module": "es2020",
     "target": "es2015",
     "types": [],
     "paths": {
@@ -13,7 +13,8 @@
     }
   },
   "angularCompilerOptions": {
-    "enableIvy": true
+    "enableIvy": true,
+    "importHelpers": true
   },
   "files": [
     "main.ts",
@@ -21,5 +22,10 @@
   ],
   "include": [
     "**/*.d.ts"
+  ],
+  "exclude": [
+    "src/**/*.spec.ts",
+    "src/test.ts",
+    "src/environments/environment.prod.ts"
   ]
 }

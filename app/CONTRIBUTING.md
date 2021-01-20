@@ -1,24 +1,22 @@
-# Contributing to CoreUI for Angular
+# Contributing to CoreUI Free Angular Admin Template
 
-Looking to contribute something to CoreUI? **Here's how you can help.**
+Looking to contribute something to CoreUI Free Angular Admin Template? **Here's how you can help.**
 
 Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved.
 
-Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue or assessing
-patches and features.
+Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue or assessing patches and features.
 
 ## Using the issue tracker
 
-The [issue tracker](https://github.com/coreui/coreui-angular/issues) is
-the preferred channel for [bug reports](#bug-reports), [features requests](#feature-requests)
-and [submitting pull requests](#pull-requests), but please respect the following
-restrictions:
+The [issue tracker](https://github.com/coreui/coreui-free-angular-admin-template/issues) is the preferred channel for [bug reports](#bug-reports), [features requests](#feature-requests) and [submitting pull requests](#pull-requests), but please respect the following restrictions:
 
 * Please **do not** use the issue tracker for personal support requests.
 
 * Please **do not** post comments consisting solely of "+1" or ":thumbsup:".
   Use [GitHub's "reactions" feature](https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments)
   instead.
+
+* Please **do not** open issues or pull requests regarding the code in  [`@coreui/coreui`](https://github.com/coreui/coreui) and [`@coreui/coreui-angular`](https://github.com/coreui/coreui) (open them in their respective repositories).
 
 ## Bug reports
 
@@ -63,11 +61,10 @@ Example:
 
 ## Feature requests
 
-Feature requests are welcome. Before opening a feature request, please take a
-moment to find out whether your idea fits with the scope and aims of the
-project. It's up to *you* to make a strong case to convince the project's
-developers of the merits of this feature. Please provide as much detail
-and context as possible.
+Feature requests are welcome. Before opening a feature request, please take a moment to find out whether your idea
+fits with the scope and aims of the project. It's up to *you* to make a strong
+case to convince the project's developers of the merits of this feature. Please
+provide as much detail and context as possible.
 
 
 ## Pull requests
@@ -89,11 +86,11 @@ included in the project:
 
    ```bash
    # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/coreui-angular.git
+   git clone https://github.com/<your-username>/free-angular-admin-template.git
    # Navigate to the newly cloned directory
-   cd coreui
+   cd free-angular-admin-template
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/coreui/coreui-angular.git
+   git remote add upstream https://github.com/coreui/coreui-free-angular-admin-template.git
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:
@@ -128,17 +125,13 @@ included in the project:
    git push origin <topic-branch-name>
    ```
 
-7. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/)
-    with a clear title and description against the `master` branch.
+7. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/) with a clear title and description against the `master` branch.
 
-**IMPORTANT**: By submitting a patch, you agree to allow the project owners to
-license your work under the terms of the [MIT License](LICENSE).
+**IMPORTANT**: By submitting a patch, you agree to allow the project owners to license your work under the terms of the [MIT License](LICENSE).
 
 ### Semantic Git commit messages
 
-Inspired by Sparkbox's awesome article on
-[semantic commit messages](http://seesparkbox.com/foundry/semantic_commit_messages).
-Please use following commit message format.
+Inspired by Sparkbox's awesome article on [semantic commit messages](http://seesparkbox.com/foundry/semantic_commit_messages). Please use following commit message format.
 
 * chore (updating npm tasks etc; no production code change) -> ```git test -m 'chore: commit-message-here'```
 * docs (changes to documentation) -> ```git commit -m 'docs: commit-message-here'```
@@ -147,6 +140,7 @@ Please use following commit message format.
 * refactor (refactoring production code) -> ```git commit -m 'refactor: commit-message-here'```
 * style (formatting, missing semi colons, etc; no code change) -> ```git commit -m 'style: commit-message-here'```
 * test (adding missing tests, refactoring tests; no production code change) -> ```git test -m 'refactor: commit-message-here'```
+
 
 ## Code guidelines
 
@@ -165,8 +159,9 @@ Please use following commit message format.
 - When feasible, default color palettes should comply with [WCAG color contrast guidelines](http://www.w3.org/TR/WCAG20/#visual-audio-contrast).
 - Except in rare cases, don't remove default `:focus` styles (via e.g. `outline: none;`) without providing alternative styles. See [this A11Y Project post](http://a11yproject.com/posts/never-remove-css-outlines) for more details.
 
-### TS
+### JS
 
+- No semicolons (in client-side JS)
 - 2 spaces (no tabs)
 - strict mode
 - "Attractive"

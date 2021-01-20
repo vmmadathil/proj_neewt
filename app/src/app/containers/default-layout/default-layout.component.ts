@@ -1,5 +1,4 @@
 import {Component} from '@angular/core';
-
 import { navItems } from '../../_nav';
 
 @Component({
@@ -7,10 +6,10 @@ import { navItems } from '../../_nav';
   templateUrl: './default-layout.component.html'
 })
 export class DefaultLayoutComponent {
-  minimized = false;
-  public navItems = [...navItems];
+  public sidebarMinimized = false;
+  public navItems = navItems;
 
   toggleMinimize(e) {
-    this.minimized = e;
+    this.sidebarMinimized = e;
   }
 }
