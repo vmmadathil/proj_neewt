@@ -1,324 +1,211 @@
-# Notus Angular <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-angular%2F&text=Start%20your%20development%20with%20a%20Free%20Tailwind%20CSS%20and%20Angular%20UI%20Kit%20and%20Admin.%20Let%20Notus%20Angular%20amaze%20you%20with%20its%20cool%20features%20and%20build%20tools%20and%20get%20your%20project%20to%20a%20whole%20new%20level." target="_blank">![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)</a>
+# [Paper Dashboard Angular](https://www.creative-tim.com/product/paper-dashboard-angular)
+![version](https://img.shields.io/badge/version-2.2.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/paper-dashboard-angular.svg?maxAge=2592000)]() [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/paper-dashboard-angular.svg?maxAge=2592000)]()  [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) <a href="https://github.com/creativetimofficial/notus-angular/issues?q=is%3Aopen+is%3Aissue" target="_blank">![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/notus-angular.svg)</a> <a href="https://github.com/creativetimofficial/notus-angular/issues?q=is%3Aissue+is%3Aclosed" target="_blank">![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/notus-angular.svg)</a> <a href="https://gitter.im/creative-tim-general/Lobby" target="_blank">![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)</a> <a href="https://discord.gg/E4aHAQy" target="_blank">![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)</a>
+![Product Gif](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/paper-dashboard-angular.gif)
 
-![Notus Angular](https://github.com/creativetimofficial/public-assets/blob/master/notus-angular/notus-angular.jpg?raw=true)
+Paper Dashboard Angular is a Bootstrap Admin Template which combines soft colors with beautiful typography and spacious cards and graphics. It was built on top of Google's [Angular Framework](https://angular.io/) and the HTML version of [Paper Dashboard](https://www.creative-tim.com/product/paper-dashboard). It is a powerful dashboard but it is light and easy to be used. It has enough features to allow you to get the job done, but it is not crowded to the point where you can't find the files for a specific component.
 
-### A beautiful UI Kit and Admin for Tailwind CSS and Angular.
+ We like consistency and design that blends into its purpose. Paper Dashboard Angular is a perfect example of our most thoughtful work. It combines over a dozen components and plugins, while looking like everything fits together. For an easy start or inspiration for you project, we have also create a set of example pages, like the user settings or usage graphics.
 
-Start your development with a Free Tailwind CSS and Angular UI Kit and Admin. Let Notus Angular amaze you with its cool features and build tools and get your project to a whole new level.
+ Paper Dashboard Angular is built using the same design language as [Paper Kit](http://www.creative-tim.com/product/paper-kit), which you can use for the presentation pages of your website. You can easily use them together, or pick between them depending on the project you have.
 
-Notus Angular is Free and Open Source. It features multiple HTML and Angular elements and it comes with dynamic components for Angular.
+ **Example Pages** We wanted to fully display the power of this dashboard, so the kit comes packed with examples showing you how to use the components.
 
-It is based on [Tailwind Starter Kit](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation?ref=na-github-readme) by Creative Tim, and it is build with both presentation pages, and pages for an admin dashboard.
+ ## Table of Contents
 
-Speed up your web development with a beautiful product made by <a href="https://creative-tim.com/" target="_blank">Creative Tim </a>.
-If you like bright and fresh colors, you will love this Free Tailwind CSS Template! It features a huge number of components that can help you create amazing websites.
+ * [Versions](#versions)
+ * [Demo](#demo)
+ * [Quick Start](#quick-start)
+ * [Documentation](#documentation)
+ * [File Structure](#file-structure)
+ * [Browser Support](#browser-support)
+ * [Resources](#resources)
+ * [Reporting Issues](#reporting-issues)
+ * [Technical Support or Questions](#technical-support-or-questions)
+ * [Licensing](#licensing)
+ * [Useful Links](#useful-links)
 
-### Get Started
+ ## Versions
 
-- Install NodeJS **LTS** version from <a href="https://nodejs.org/en/?ref=creativetim">NodeJs Official Page</a>
-- Download the product on this page
-- Unzip the downloaded file to a folder in your computer
-- Open Terminal
-- Go to your file project (where you’ve unzipped the product)
-- (If you are on a linux based terminal) Simply run `npm run install:clean`
-- (If not) Run in terminal `npm install`
-- (If not) Run in terminal `npm run build:tailwind` (each time you add a new class, a class that does not exist in `src/assets/styles/tailwind.css`, you will need to run this command)
-- (If not) Run in terminal `npm start`
-- Navigate to https://localhost:4200
-- Check more about [Tailwind CSS](https://tailwindcss.com/?ref=creativetim)
+ [<img src="https://s3.amazonaws.com/creativetim_bucket/github/html.png" width="60" height="60" />](https://www.creative-tim.com/product/paper-dashboard-2)
+ [<img src="https://s3.amazonaws.com/creativetim_bucket/github/angular.png" width="60" height="60" />](https://www.creative-tim.com/product/paper-dashboard-angular)
+ [<img src="https://s3.amazonaws.com/creativetim_bucket/github/react.svg" width="60" height="60" />](https://www.creative-tim.com/product/paper-dashboard-react)
 
-### Pages
+ | HTML | Angular | React |
+ | --- | --- | --- |
+ | [![Paper Dashboard 2 HTML](https://s3.amazonaws.com/creativetim_bucket/products/86/thumb/opt_pd2_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-2) | [![Paper Dashboard Angular](https://s3.amazonaws.com/creativetim_bucket/products/58/thumb/opt_pd_angular_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-angular) | [![Paper Dashboard React](https://s3.amazonaws.com/creativetim_bucket/products/98/thumb/opt_pd_react_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-react) |
 
-If you want to get inspiration or just show something directly to your clients,
-you can jump start your development with our pre-built example pages. You will be able
-to quickly set up the basic structure for your web project.
+ ## Demo
 
-Here are all the page from the project:
-- [Presentation](https://demos.creative-tim.com/notus-angular/?ref=na-github-readme)
-- Admin Samples
-  - [Dashboard](https://demos.creative-tim.com/notus-angular/admin/dashboard?ref=na-github-readme)
-  - [Settings](https://demos.creative-tim.com/notus-angular/admin/settings?ref=na-github-readme)
-  - [Tables](https://demos.creative-tim.com/notus-angular/admin/tables?ref=na-github-readme)
-  - [Maps](https://demos.creative-tim.com/notus-angular/admin/maps?ref=na-github-readme)
-- Authentication Samples
-  - [Login](https://demos.creative-tim.com/notus-angular/auth/login?ref=na-github-readme)
-  - [Register](https://demos.creative-tim.com/notus-angular/auth/register?ref=na-github-readme)
-- Presentation Samples
-  - [Landing](https://demos.creative-tim.com/notus-angular/landing?ref=na-github-readme)
-  - [Profile](https://demos.creative-tim.com/notus-angular/profile?ref=na-github-readme)
+ | Dashboard | User Profile | Tables | Icons | Notifications |
+ | --- | --- | --- | --- | --- |
+ | [![Start page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/dashboard.png?raw=true)](https://demos.creative-tim.com/paper-dashboard-angular/#/dashboard) | [![User profile page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/user-profile.png?raw=true)](https://demos.creative-tim.com/paper-dashboard-angular/#/user-profile) | [![Tables page ](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/tables.png?raw=true)](https://demos.creative-tim.com/paper-dashboard-angular/#/table-list) | [![Icons Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/icons.png?raw=true)](https://demos.creative-tim.com/paper-dashboard-angular/#/maps) | [![Notifications page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/notifications.png?raw=true)](https://demos.creative-tim.com/paper-dashboard-angular/#/notifications)
 
+ [View More](https://demos.creative-tim.com/paper-dashboard-angular/#/dashboard).
 
-### Fully Coded Components
-
-Notus Angular is built with over frontend 120 components, giving you the freedom of choosing and combining. All components can take variations in colors, that you can easily modify using Tailwindcss classes (NOTE: each time you add a new class, a class that does not exist in `src/assets/styles/tailwind.css`, you will need to compile again tailwind).
-
-You will save a lot of time going from prototyping to full-functional code, because all elements are implemented.
-This Free Tailwind CSS Template is coming with prebuilt examples, so the development process is seamless, switching from our pages to the real website is very easy to be done.
-
-Every element has multiple states for colors, styles, hover, focus, that you can easily access and use.
-
-
-### CSS Components
-
-Notus Angular comes with 120 Fully Coded CSS elements, such as [Alerts](https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=na-github-readme), [Buttons](https://www.creative-tim.com/learning-lab/tailwind/angular/buttons/notus?ref=na-github-readme), [Inputs](https://www.creative-tim.com/learning-lab/tailwind/angular/inputs/notus?ref=na-github-readme) and many more.
-
-Please [check all of them here](https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=na-github-readme).
-
-### Angular Components
-
-We also feature the following 18 dynamic components:
-- [Alerts](https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=na-github-readme)
-- [Popper for Menus](https://www.creative-tim.com/learning-lab/tailwind/angular/dropdowns/notus?ref=na-github-readme)
-- [Menus](https://www.creative-tim.com/learning-lab/tailwind/angular/menus/notus?ref=na-github-readme)
-- [Modals](https://www.creative-tim.com/learning-lab/tailwind/angular/modals/notus?ref=na-github-readme)
-- [Navbars](https://www.creative-tim.com/learning-lab/tailwind/angular/navbar/notus?ref=na-github-readme)
-- [Popper for popover content](https://www.creative-tim.com/learning-lab/tailwind/angular/popovers/notus?ref=na-github-readme)
-- [Tabs](https://www.creative-tim.com/learning-lab/tailwind/angular/tabs/notus?ref=na-github-readme)
-- [Popper for tooltips content](https://www.creative-tim.com/learning-lab/tailwind/angular/tooltips/notus?ref=na-github-readme)
-
-
-## Table of Contents
-
-* [Versions](#versions)
-* [Documentation](#documentation)
-* [Quick Start](#quick-start)
-* [Files and folders](#files-and-folders)
-* [Browser Support](#browser-support)
-* [Reporting Issues](#reporting-issues)
-* [Licensing](#licensing)
-* [Useful Links](#useful-links)
-* [Resources](#resources)
-
-## Versions
-
-[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/angular.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/notus-angular?ref=na-github-readme)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/js.png?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/notus-js?ref=na-github-readme)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/nextjs.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/notus-nextjs?ref=na-github-readme)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/react.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/notus-react?ref=na-github-readme)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/svelte.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/notus-svelte?ref=na-github-readme)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/vue.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/vue-notus?ref=na-github-readme)
-
-
-| Angular | JavaScript / HTML | NextJS | React | Svelte | VueJS |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| [![Notus Angular](https://github.com/creativetimofficial/public-assets/blob/master/notus-angular/notus-angular.jpg?raw=true)](https://www.creative-tim.com/product/notus-angular?ref=na-github-readme)  | [![Notus JS](https://github.com/creativetimofficial/public-assets/blob/master/notus-js/notus-js.jpg?raw=true)](https://www.creative-tim.com/product/notus-js?ref=na-github-readme)  | [![Notus NextJS](https://github.com/creativetimofficial/public-assets/blob/master/notus-nextjs/notus-nextjs.jpg?raw=true)](https://www.creative-tim.com/product/notus-nextjs?ref=na-github-readme)  | [![Notus React](https://github.com/creativetimofficial/public-assets/blob/master/notus-react/notus-react.jpg?raw=true)](https://www.creative-tim.com/product/notus-react?ref=na-github-readme)  | [![Notus Svelte](https://github.com/creativetimofficial/public-assets/blob/master/notus-svelte/notus-svelte.jpg?raw=true)](https://www.creative-tim.com/product/notus-svelte?ref=na-github-readme)  | [![Vue Notus](https://github.com/creativetimofficial/public-assets/blob/master/vue-notus/vue-notus.jpg?raw=true)](https://www.creative-tim.com/product/vue-notus?ref=na-github-readme)
-
-## Documentation
-The documentation for the Notus Angular is hosted at our <a href="https://www.creative-tim.com/learning-lab/tailwind/angular/overview/notus?ref=na-readme" target="_blank">website</a>.
 
 ## Quick start
 
-- <a href="https://www.creative-tim.com/product/notus-angular?ref=na-github-readme" target="_blank">Download from Creative Tim</a>.
-- <a href="https://github.com/creativetimofficial/notus-angular" target="_blank">Check it on Github</a>.
+Quick start options:
 
-## Files and Folder
+- [Download from Creative Tim](https://www.creative-tim.com/product/paper-dashboard-angular).
 
-This is the project structure that you will get upon the download:
+## Terminal Commands
+
+1. Install NodeJs from [NodeJs Official Page](https://nodejs.org/en).
+2. Open Terminal
+3. Go to your file project
+4. Run in terminal: ```npm install -g @angular/cli```
+5. Then: ```npm install```
+6. And: ```ng serve```
+7. Navigate to: [http://localhost:4200/](http://localhost:4200/)
+
+### What's included
+
+Within the download you'll find the following directories and files:
+
 ```
-notus-angular
-.
+paper-dashboard-angular
 ├── CHANGELOG.md
-├── ISSUE_TEMPLATE.md
+├── ISSUES_TEMPLATE.md
 ├── LICENSE.md
 ├── README.md
 ├── angular.json
 ├── browserslist
+├── documentation
+│   └── tutorial-components.html
 ├── e2e
-│   ├── protractor.conf.js
-│   ├── src
-│   │   ├── app.e2e-spec.ts
-│   │   └── app.po.ts
-│   └── tsconfig.json
 ├── karma.conf.js
+├── package-lock.json
 ├── package.json
+├── protractor.conf.js
 ├── src
 │   ├── app
-│   │   ├── app-routing.module.ts
+│   │   ├── app.component.css
 │   │   ├── app.component.html
+│   │   ├── app.component.spec.ts
 │   │   ├── app.component.ts
 │   │   ├── app.module.ts
-│   │   ├── components
-│   │   │   ├── cards
-│   │   │   │   ├── card-bar-chart
-│   │   │   │   │   ├── card-bar-chart.component.html
-│   │   │   │   │   └── card-bar-chart.component.ts
-│   │   │   │   ├── card-line-chart
-│   │   │   │   │   ├── card-line-chart.component.html
-│   │   │   │   │   └── card-line-chart.component.ts
-│   │   │   │   ├── card-page-visits
-│   │   │   │   │   ├── card-page-visits.component.html
-│   │   │   │   │   └── card-page-visits.component.ts
-│   │   │   │   ├── card-profile
-│   │   │   │   │   ├── card-profile.component.html
-│   │   │   │   │   └── card-profile.component.ts
-│   │   │   │   ├── card-settings
-│   │   │   │   │   ├── card-settings.component.html
-│   │   │   │   │   └── card-settings.component.ts
-│   │   │   │   ├── card-social-traffic
-│   │   │   │   │   ├── card-social-traffic.component.html
-│   │   │   │   │   └── card-social-traffic.component.ts
-│   │   │   │   ├── card-stats
-│   │   │   │   │   ├── card-stats.component.html
-│   │   │   │   │   └── card-stats.component.ts
-│   │   │   │   └── card-table
-│   │   │   │       ├── card-table.component.html
-│   │   │   │       └── card-table.component.ts
-│   │   │   ├── dropdowns
-│   │   │   │   ├── index-dropdown
-│   │   │   │   │   ├── index-dropdown.component.html
-│   │   │   │   │   └── index-dropdown.component.ts
-│   │   │   │   ├── notification-dropdown
-│   │   │   │   │   ├── notification-dropdown.component.html
-│   │   │   │   │   └── notification-dropdown.component.ts
-│   │   │   │   ├── pages-dropdown
-│   │   │   │   │   ├── pages-dropdown.component.html
-│   │   │   │   │   └── pages-dropdown.component.ts
-│   │   │   │   ├── table-dropdown
-│   │   │   │   │   ├── table-dropdown.component.html
-│   │   │   │   │   └── table-dropdown.component.ts
-│   │   │   │   └── user-dropdown
-│   │   │   │       ├── user-dropdown.component.html
-│   │   │   │       └── user-dropdown.component.ts
-│   │   │   ├── footers
-│   │   │   │   ├── footer
-│   │   │   │   │   ├── footer.component.html
-│   │   │   │   │   └── footer.component.ts
-│   │   │   │   ├── footer-admin
-│   │   │   │   │   ├── footer-admin.component.html
-│   │   │   │   │   └── footer-admin.component.ts
-│   │   │   │   └── footer-small
-│   │   │   │       ├── footer-small.component.html
-│   │   │   │       └── footer-small.component.ts
-│   │   │   ├── headers
-│   │   │   │   └── header-stats
-│   │   │   │       ├── header-stats.component.html
-│   │   │   │       └── header-stats.component.ts
-│   │   │   ├── maps
-│   │   │   │   └── map-example
-│   │   │   │       ├── map-example.component.html
-│   │   │   │       └── map-example.component.ts
-│   │   │   ├── navbars
-│   │   │   │   ├── admin-navbar
-│   │   │   │   │   ├── admin-navbar.component.html
-│   │   │   │   │   └── admin-navbar.component.ts
-│   │   │   │   ├── auth-navbar
-│   │   │   │   │   ├── auth-navbar.component.html
-│   │   │   │   │   └── auth-navbar.component.ts
-│   │   │   │   └── index-navbar
-│   │   │   │       ├── index-navbar.component.html
-│   │   │   │       └── index-navbar.component.ts
-│   │   │   └── sidebar
-│   │   │       ├── sidebar.component.html
-│   │   │       └── sidebar.component.ts
+│   │   ├── app.routing.ts
 │   │   ├── layouts
-│   │   │   ├── admin
-│   │   │   │   ├── admin.component.html
-│   │   │   │   └── admin.component.ts
-│   │   │   └── auth
-│   │   │       ├── auth.component.html
-│   │   │       └── auth.component.ts
-│   │   └── views
-│   │       ├── admin
-│   │       │   ├── dashboard
-│   │       │   │   ├── dashboard.component.html
-│   │       │   │   └── dashboard.component.ts
-│   │       │   ├── maps
-│   │       │   │   ├── maps.component.html
-│   │       │   │   └── maps.component.ts
-│   │       │   ├── settings
-│   │       │   │   ├── settings.component.html
-│   │       │   │   └── settings.component.ts
-│   │       │   └── tables
-│   │       │       ├── tables.component.html
-│   │       │       └── tables.component.ts
-│   │       ├── auth
-│   │       │   ├── login
-│   │       │   │   ├── login.component.html
-│   │       │   │   └── login.component.ts
-│   │       │   └── register
-│   │       │       ├── register.component.html
-│   │       │       └── register.component.ts
-│   │       ├── index
-│   │       │   ├── index.component.html
-│   │       │   └── index.component.ts
-│   │       ├── landing
-│   │       │   ├── landing.component.html
-│   │       │   └── landing.component.ts
-│   │       └── profile
-│   │           ├── profile.component.html
-│   │           └── profile.component.ts
+│   │   │   └── admin-layout
+│   │   │       ├── admin-layout.component.html
+│   │   │       ├── admin-layout.component.scss
+│   │   │       ├── admin-layout.component.spec.ts
+│   │   │       ├── admin-layout.component.ts
+│   │   │       ├── admin-layout.module.ts
+│   │   │       └── admin-layout.routing.ts
+│   │   ├── pages
+│   │   │   ├── dashboard
+│   │   │   │   ├── dashboard.component.html
+│   │   │   │   └── dashboard.component.ts
+│   │   │   ├── icons
+│   │   │   │   ├── icons.component.html
+│   │   │   │   └── icons.component.ts
+│   │   │   ├── maps
+│   │   │   │   ├── maps.component.html
+│   │   │   │   └── maps.component.ts
+│   │   │   ├── notifications
+│   │   │   │   ├── notifications.component.html
+│   │   │   │   └── notifications.component.ts
+│   │   │   ├── table
+│   │   │   │   ├── table.component.html
+│   │   │   │   └── table.component.ts
+│   │   │   ├── typography
+│   │   │   │   ├── typography.component.html
+│   │   │   │   └── typography.component.ts
+│   │   │   ├── upgrade
+│   │   │   │   ├── upgrade.component.html
+│   │   │   │   └── upgrade.component.ts
+│   │   │   └── user
+│   │   │       ├── user.component.html
+│   │   │       └── user.component.ts
+│   │   ├── shared
+│   │   │   ├── fixedplugin
+│   │   │   │   ├── fixedplugin.component.html
+│   │   │   │   ├── fixedplugin.component.ts
+│   │   │   │   └── fixedplugin.module.ts
+│   │   │   ├── footer
+│   │   │   │   ├── footer.component.html
+│   │   │   │   ├── footer.component.ts
+│   │   │   │   └── footer.module.ts
+│   │   │   └── navbar
+│   │   │       ├── navbar.component.html
+│   │   │       ├── navbar.component.ts
+│   │   │       └── navbar.module.ts
+│   │   └── sidebar
+│   │       ├── sidebar.component.html
+│   │       ├── sidebar.component.ts
+│   │       └── sidebar.module.ts
 │   ├── assets
+│   │   ├── css
+│   │   ├── fonts
 │   │   ├── img
-│   │   │   ├── github.svg
-│   │   │   └── google.svg
-│   │   └── styles
-│   │       ├── index.css
-│   │       └── tailwind.css
+│   │   └── scss
+│   │       ├── paper-dashboard
+│   │       └── paper-dashboard.scss
 │   ├── environments
-│   │   ├── environment.prod.ts
-│   │   └── environment.ts
 │   ├── favicon.ico
 │   ├── index.html
 │   ├── main.ts
 │   ├── polyfills.ts
 │   ├── styles.css
-│   └── test.ts
-├── tailwind.config.js
-├── tsconfig.app.json
+│   ├── test.ts
+│   ├── tsconfig.app.json
+│   ├── tsconfig.spec.json
+│   └── typings.d.ts
 ├── tsconfig.json
-├── tsconfig.spec.json
 └── tslint.json
 ```
-
 ## Browser Support
 
 At present, we officially aim to support the last two versions of the following browsers:
 
-| Chrome | Firefox | Edge | Safari | Opera |
-|:---:|:---:|:---:|:---:|:---:|
-| <img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/chrome-logo.png?raw=true" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/firefox-logo.png" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/edge-logo.png" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/safari-logo.png" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/opera-logo.png" width="64" height="64"> |
-
-## Reporting Issues
-
-We use GitHub Issues as the official bug tracker for the Notus Angular. Here are some advices for our users that want to report an issue:
-
-1. Make sure that you are using the latest version of the Notus Angular. Check the CHANGELOG from your dashboard on our <a href="https://www.creative-tim.com/?ref=na-readme" target="_blank">website</a>.
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
-
-## Licensing
-
-- Copyright 2020 <a href="https://www.creative-tim.com/?ref=na-readme" target="_blank">Creative Tim</a>
-
-- Licensed under <a href="https://github.com/creativetimofficial/notus-angular/blob/master/LICENSE.md" target="_blank">MIT</a>
-
-## Useful Links
-
-- <a href="https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w" target="_blank">Tutorials</a>
-- <a href="https://www.creative-tim.com/affiliates/new?ref=na-readme" target="_blank">Affiliate Program</a> (earn money)
-- <a href="http://blog.creative-tim.com/?ref=na-readme" target="_blank">Blog Creative Tim</a>
-- <a href="https://www.creative-tim.com/templates/free?ref=na-readme" target="_blank">Free Products</a> from Creative Tim
-- <a href="https://www.creative-tim.com/templates/premium?ref=na-readme" target="_blank">Premium Products</a> from Creative Tim
-- <a href="https://www.creative-tim.com/templates/react?ref=na-readme" target="_blank">React Products</a> from Creative Tim
-- <a href="https://www.creative-tim.com/templates/angular?ref=na-readme" target="_blank">Angular Products</a> from Creative Tim
-- <a href="https://www.creative-tim.com/templates/vuejs?ref=na-readme" target="_blank">VueJS Products</a> from Creative Tim
-- <a href="https://www.creative-tim.com/templates?ref=na-readme" target="_blank">More products</a> from Creative Tim
-- Check our Bundles <a href="https://www.creative-tim.com/bundles?ref=na-readme" target="_blank">here</a>
-- Check our awesome builder <a href="https://www.creative-tim.com/builder/argon?ref=na-readme" target="_blank">here</a>
-- Check Tailwind Starter Kit, the project behind this product <a href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation?ref=na-readme" target="_blank">here</a>
-
-### Social Media
-
-Twitter: <a href="https://twitter.com/CreativeTim" target="_blank">https://twitter.com/CreativeTim</a>
-
-Facebook: <a href="https://www.facebook.com/CreativeTim" target="_blank">https://www.facebook.com/CreativeTim</a>
-
-Dribbble: <a href="https://dribbble.com/creativetim" target="_blank">https://dribbble.com/creativetim</a>
-
-Instagram: <a href="https://www.instagram.com/creativetimofficial/" target="_blank">https://www.instagram.com/creativetimofficial/</a>
+<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
 
 
 ## Resources
-- Demo: <a href="https://demos.creative-tim.com/notus-angular/?ref=na-readme" target="_blank">https://demos.creative-tim.com/notus-angular/?ref=na-readme</a>
-- Download Page: <a href="https://www.creative-tim.com/product/notus-angular?ref=na-github-readme" target="_blank">https://www.creative-tim.com/product/notus-angular</a>
-- Documentation: <a href="https://www.creative-tim.com/learning-lab/tailwind/angular/overview/notus?ref=na-readme" target="_blank">https://www.creative-tim.com/learning-lab/tailwind/angular/overview/notus?ref=na-readme</a>
-- License Agreement: <a href="https://www.creative-tim.com/license?ref=na-readme" target="_blank">https://www.creative-tim.com/license?ref=na-readme</a>
-- Support: <a href="https://www.creative-tim.com/contact-us?ref=na-readme" target="_blank">https://www.creative-tim.com/contact-us?ref=na-readme</a>
-- Issues: <a href="https://github.com/creativetimofficial/notus-angular/issues" target="_blank">Github Issues Page</a>
+- Demo: https://demos.creative-tim.com/paper-dashboard-angular/#/dashboard
+- Download Page: https://www.creative-tim.com/product/paper-dashboard-angular
+- Documentation: https://demos.creative-tim.com/paper-dashboard-angular/#/documentation/tutorial
+- License Agreement: https://www.creative-tim.com/license
+- Support: https://www.creative-tim.com/contact-us
+- Issues: [Github Issues Page](https://github.com/creativetimofficial/paper-dashboard-angular/issues)
+
+## Reporting Issues
+We use GitHub Issues as the official bug tracker for the Paper Dashboard Angular. Here are some advices for our users that want to report an issue:
+
+1. Make sure that you are using the latest version of the Paper Dashboard Angular. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/).
+2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
+3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
+
+## Technical Support or Questions
+
+If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us) instead of opening an issue.
+
+## Licensing
+
+- Copyright 2019 Creative Tim (https://www.creative-tim.com)
+- Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard-angular/blob/master/LICENSE.md)
+
+## Useful Links
+
+More products from Creative Tim: <https://www.creative-tim.com/products>
+
+Tutorials: <https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w>
+
+Freebies: <https://www.creative-tim.com/products>
+
+Affiliate Program (earn money): <https://www.creative-tim.com/affiliates/new>
+
+Social Media:
+
+Twitter: <https://twitter.com/CreativeTim>
+
+Facebook: <https://www.facebook.com/CreativeTim>
+
+Dribbble: <https://dribbble.com/creativetim>
+
+Google+: <https://plus.google.com/+CreativetimPage>
+
+Instagram: <https://instagram.com/creativetimofficial>
